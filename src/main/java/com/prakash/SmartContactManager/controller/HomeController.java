@@ -16,18 +16,18 @@ public class HomeController {
 	
 	@RequestMapping("/")
 	public String home(Model model) {
-		model.addAttribute("title","Home - Smart contact Manager");
+		model.addAttribute("title","Home - Smart contact Manager.");
 		return "home";
 	}
 	
 	@RequestMapping("/about")
 	public String about(Model model) {
-		model.addAttribute("title","Home - Smart contact Manager");
+		model.addAttribute("title","Home - Smart contact Manager.");
 		return "about";
 	}
 	@RequestMapping("/signup")
 	public String signUp(Model model) {
-		model.addAttribute("title","Register - Smart contact Manager");
+		model.addAttribute("title","Register - Smart contact Manager.");
 		return "signup";
 	}
 }
